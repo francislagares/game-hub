@@ -7,10 +7,10 @@ describe('App', () => {
   test('renders without crashing', () => {
     render(<App />);
 
-    const heading = screen.getByRole('heading');
+    const heading = screen.getByRole('button');
 
     expect(heading).toBeVisible();
-    expect(heading).toHaveTextContent('Vite + React');
+    expect(heading).toHaveTextContent('Button');
 
     // screen.debug();
   });

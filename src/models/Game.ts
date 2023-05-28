@@ -1,12 +1,8 @@
-interface Platform {
-  id: string;
-  name: string;
-  slug: string;
-}
+import { Platform } from './Platform';
 
 export interface Game {
   id: number;
   name: string;
   background_image: string;
-  platform: { platform: Platform }[];
+  parent_platforms: { platform: Platform }[];
 }

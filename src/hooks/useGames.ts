@@ -2,12 +2,8 @@ import { useEffect, useState } from 'react';
 
 import { CanceledError } from 'axios';
 
+import { Game } from '@/models/Game';
 import apiService from '@/services/api.service';
-
-interface Game {
-  id: number;
-  name: string;
-}
 
 interface FetchGamesResponse {
   count: number;

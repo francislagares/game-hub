@@ -16,10 +16,11 @@
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
   },
-  "plugins": ["import", "jsx-a11y", "react-hooks", "jest-dom", "prettier"],
+  "plugins": ["import", "css-import-order", "jsx-a11y", "react-hooks", "jest-dom", "prettier"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:css-import-order/recommended",
     "plugin:react-hooks/recommended",
     "plugin:jest-dom/recommended",
     "prettier"

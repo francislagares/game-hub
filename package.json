@@ -23,7 +23,7 @@
     "@chakra-ui/react": "^2.7.0",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@tanstack/react-query": "^4.29.12",
+    "@tanstack/react-query": "^4.29.13",
     "axios": "^1.4.0",
     "cypress": "^12.14.0",
     "cypress-vite": "^1.4.0",
@@ -31,7 +31,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
-    "react-router-dom": "^6.12.1"
+    "react-router-dom": "^6.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
@@ -48,9 +48,9 @@
     "@storybook/react": "^7.0.20",
     "@storybook/react-vite": "^7.0.20",
     "@storybook/testing-library": "^0.1.0",
-    "@tanstack/react-query-devtools": "^4.29.12",
+    "@tanstack/react-query-devtools": "^4.29.13",
     "@testing-library/cypress": "^9.0.0",
-    "@testing-library/dom": "^9.3.0",
+    "@testing-library/dom": "^9.3.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",

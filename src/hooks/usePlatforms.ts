@@ -1,9 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 import { Platform } from '@/models/Platform';
-import apiService from '@/services/api.service';
-
-import { FetchResponse } from './useData';
+import apiService, { FetchResponse } from '@/services/api.service';
 
 const usePlatforms = () =>
   useQuery({

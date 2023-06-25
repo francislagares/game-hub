@@ -1,11 +1,11 @@
 import { render } from '@testing-library/react';
 import { describe } from 'vitest';
 
-import App from './App';
+import Home from './pages/Home';
 
 describe('App', () => {
   test('renders without crashing', () => {
-    render(<App />);
+    render(<Home />);
 
     // screen.debug();
   });

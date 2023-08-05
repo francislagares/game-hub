@@ -107,7 +107,7 @@
       "path": "cz-conventional-changelog"
     }
   },
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@3.6.1",
   "eslintConfig": {
     "extends": [
       "plugin:storybook/recommended"
